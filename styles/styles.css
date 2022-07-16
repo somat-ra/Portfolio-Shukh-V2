@@ -4,6 +4,15 @@
   --second-font: "Edu NSW ACT Foundation", cursive;
 }
 
+.image-logo {
+  width: 10%;
+  margin: 0 20px;
+}
+
+.container-fluid {
+  padding: 0 40px !important;
+}
+
 header.first-block {
   text-align: center;
   font-family: var(--main-font);
@@ -42,8 +51,31 @@ header.first-block {
   .small-greating {
     font-size: 27px;
   }
-}
 
+  .project-image {
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 756px) {
+  .text-project-middle {
+    order: 2;
+  }
+
+  .text-project {
+    padding: 25px 20px 50px 20px !important;
+  }
+  .container {
+    text-align: center;
+  }
+  .project-image-middle {
+    order: 1;
+  }
+
+  .row-change {
+    padding-right: 0 !important;
+  }
+}
 .btn-branding {
   background-color: var(--branding-color) !important;
   border-radius: 4px;
@@ -63,17 +95,17 @@ main.projects-to-inspect {
 }
 
 .text-project {
-padding: 150px 60px; 
+  padding: 130px 60px;
 }
 
 .project-example-explanation {
-    line-height: 30px;
+  line-height: 30px;
+  margin: 20px 0;
 }
 
 .button-progects {
   border-color: var(--branding-color) !important;
   color: var(--branding-color) !important;
-  margin-top: 40px;
 }
 .button-progects:hover {
   background-color: var(--branding-color) !important;
@@ -81,5 +113,9 @@ padding: 150px 60px;
 }
 
 .project-image {
-  border: 50px solid rgba(241, 133, 62, 0.18);
+  border: 30px solid rgba(241, 133, 62, 0.18);
+}
+
+.row-change {
+  margin: 0 auto !important;
 }
