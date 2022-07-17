@@ -51,13 +51,8 @@ header.first-block {
   .small-greating {
     font-size: 27px;
   }
-
-  .project-image {
-    display: block;
-    margin: 0 auto;
-  }
 }
-@media (max-width: 756px) {
+@media (max-width: 930px) {
   .text-project-middle {
     order: 2;
   }
@@ -67,9 +62,6 @@ header.first-block {
   }
   .container {
     text-align: center;
-  }
-  .project-image-middle {
-    order: 1;
   }
 
   .row-change {
