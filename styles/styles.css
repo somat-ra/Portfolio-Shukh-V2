@@ -111,3 +111,27 @@ main.projects-to-inspect {
 .row-change {
   margin: 0 auto !important;
 }
+
+footer .container {
+  background: rgba(241, 133, 62, 0.18);
+  height: 100px;
+  width: 1160px;
+  border-radius: 20px;
+  /* position: relative; */
+}
+
+footer .row {
+ 
+position: relative;
+  top: 50%;
+  left: 15%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+  /* position: absolute;
+  /* top: 50%;
+
+-ms-transform: translateY(-50%);
+  transform: translateY(-50%); */
+}
