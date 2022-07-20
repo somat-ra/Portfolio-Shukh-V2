@@ -13,6 +13,15 @@
   padding: 0 40px !important;
 }
 
+.about-main-container {
+  margin: 100px!important;
+}
+
+.about-text-main {
+  padding-left: 50px!important;
+  padding-right: 70px !important;
+}
+
 header.first-block {
   text-align: center;
   font-family: var(--main-font);
