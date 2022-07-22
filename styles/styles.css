@@ -13,13 +13,27 @@
   padding: 0 40px !important;
 }
 
-.about-main-container {
-  margin: 100px!important;
+.control-container {
+  margin: 100px !important;
 }
 
 .about-text-main {
-  padding-left: 50px!important;
+  padding-left: 50px !important;
   padding-right: 70px !important;
+}
+
+.container p {
+  line-height: 30px;
+  color: #6c757d !important;
+  font-size: 14px;
+}
+
+.container h3 {
+  line-height: 1.5;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: var(--main-font);
+  margin-bottom: 0 !important;
 }
 
 header.first-block {
@@ -130,8 +144,7 @@ footer .container {
 }
 
 footer .row {
- 
-position: relative;
+  position: relative;
   top: 50%;
   left: 15%;
   -webkit-transform: translateY(-50%);
