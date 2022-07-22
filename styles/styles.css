@@ -22,12 +22,21 @@
   padding-right: 70px !important;
 }
 
+.container {
+  padding: 160px 20px;
+  margin-left: 300px !important;
+  margin-right: 300px !important;
+}
+
 .container p {
   line-height: 30px;
   color: #6c757d !important;
   font-size: 14px;
 }
-
+.container h1 {
+  font-size: 96px;
+  line-height: 1.5;
+}
 .container h3 {
   line-height: 1.5;
   font-weight: bold;
